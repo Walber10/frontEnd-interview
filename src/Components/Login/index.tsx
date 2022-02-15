@@ -10,6 +10,7 @@ const Login = () => {
       alignItems="center"
       justifyContent="center"
       direction="column"
+      item 
       lg={6}
     >
       <Paper className="paperStyle" elevation={10} style={paperStyle}>
@@ -17,7 +18,7 @@ const Login = () => {
           <h1>Enter your order number</h1>
         </Grid>
         <LoginForm />
-        <div className="footerLogin" style={footerLogin}>
+        <div  style={footerLogin}>
           <LogoRefundid />
         </div>
       </Paper>

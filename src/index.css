@@ -2,13 +2,14 @@
   /* colors */
   --primary-50: #f9faf9;
   --primary-100: #f3ad3c;
-  
 
   /* fonts  */
-  --headingFont: 'Roboto Condensed', Sans-Serif;
-  --bodyFont: 'Proxima Nova', Sans-Serif;
+  --bodyFont: "system-ui";
 
   /* rest of the vars */
   --textColor: var(--primary-50);
+}
 
+h1 {
+  font-family: var(--bodyFont);
 }

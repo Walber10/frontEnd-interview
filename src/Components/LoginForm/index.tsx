@@ -40,10 +40,9 @@ const LoginForm = () => {
           style={textField}
           className="inputRounded"
           variant="outlined"
-          label="order Number"
+          label="Order number"
           placeholder="Order number"
           fullWidth
-          required
         />
         <TextField
           onChange={handleInputChange}
@@ -55,7 +54,6 @@ const LoginForm = () => {
           placeholder="Email address"
           type="email"
           fullWidth
-          required
           value={orderData.email}
         />
 
